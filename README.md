@@ -14,3 +14,15 @@ From the analysis we can draw the following conclusions:
 - Since there are some significant factors and a relation to the MPG, the slope of this model is non-zero.
 - Since the model has only 2 of three independent variables with significance but a 0.71 R-squared, it does a moderate job of predicting MPG. More variables or sample size would be needed to have a more robust model.
 
+## Summary Statistics on Suspension Coils
+Specifications for the MechaCar manufacturing specs for suspension coils cannot exceed 100 PSI variance.
+### Overall for All Lots
+
+![](https://github.com/NortonAAA/MechaCar_Statistical_Analysis/blob/main/images/D2_S3_Total_Summary.png)
+
+From a summary of all lots, the total metric of variance is within the spec of but does look high so we have pulled a review by lots.
+
+### Statistics per Lot
+![](https://github.com/NortonAAA/MechaCar_Statistical_Analysis/blob/main/images/D2_S4_Coil_Summary.png)
+
+Reviewing each lot, we can see that Lot 1 is very close in spec, Lot 2 within spec, but Lot 3 is well outside specification. This should be reviewed deeper.
