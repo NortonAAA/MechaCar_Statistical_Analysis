@@ -28,25 +28,34 @@ From a summary of all lots, the total metric of variance is within the spec of b
 Reviewing each lot, we can see that Lot 1 is very close in spec, Lot 2 within spec, but Lot 3 is well outside specification. This should be reviewed deeper.
 
 ## T-Tests on Suspension Coils
-The following t-tests were performed against the population mean of 1500 PSI as the specification
+The following t-tests were performed against the population mean of 1500 PSI as the specification.
 First, we tested against the sample of all Manufacturing Lots against the Populaion and the summary of the t-test is below:
 ![](https://github.com/NortonAAA/MechaCar_Statistical_Analysis/blob/main/images/D3_S1_Total_vs_Pop1500.png)
 
-In the total, there is not a significant difference between the sample mean and the population mean
+In the total, there is not a significant difference between the sample mean and the population mean.
 
 Next, we tested against each sample of Manufacturing Lots specifically:
 ### Lot 1 
 ![](https://github.com/NortonAAA/MechaCar_Statistical_Analysis/blob/main/images/D3_S2_Lot1_vs_Pop1500.png)
 
-There is no statistical difference in Lot 1 and the Population mean
+There is no statistical difference in Lot 1 and the Population mean.
 
 ### Lot 2 
 ![](https://github.com/NortonAAA/MechaCar_Statistical_Analysis/blob/main/images/D3_S2_Lot2_vs_Pop1500.png)
 
-There is no statistical difference in Lot 2 and the Population mean
+There is no statistical difference in Lot 2 and the Population mean.
 
 ### Lot 3 
 ![](https://github.com/NortonAAA/MechaCar_Statistical_Analysis/blob/main/images/D3_S2_Lot2_vs_Pop1500.png)
 
-There is a statistical difference in Lot 3 and the Population mean. This confirms what we were seeing in the summary statistics in part 1
+There is a statistical difference in Lot 3 and the Population mean. This confirms what we were seeing in the summary statistics.
+
+## Study Design: MechaCar vs Competition
+Now that we have identified the opportunity to review Lot 3, we can get MechaCar align to competition review. 
+To do this we should compare the specifications of leading competitors, Honda and Toyota. 
+Customer variables for consideration would remain City MPG, Cost, and Saftey rating as a priority.
+
+To do this this we would want to use an ANOVA table to understand the variance of the means of those variables to both Honda and Toyota.
+
+Data to be collected would be from the National Highway Safety Administration on safety, city. We can also pull data from Kelly Blue Blue and Manufacture trade sites.
 
